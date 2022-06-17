@@ -1,0 +1,46 @@
+{
+	"id": "771b244f-3653-5aad-4cbb-9461dd39fee2",
+	"name": "Prueba Tecnica",
+	"description": "",
+	"order": [
+		"af795b07-faca-ef34-f836-82e0cc590a51"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1655466780250,
+	"owner": "6171093",
+	"public": false,
+	"requests": [
+		{
+			"id": "af795b07-faca-ef34-f836-82e0cc590a51",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/clientes\n?identificacion\n=1721734356",
+			"queryParams": [
+				{
+					"key": "identificacion\n",
+					"value": "1721734356",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "771b244f-3653-5aad-4cbb-9461dd39fee2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Buscar cliente por identificacion",
+			"description": "http://localhost:8080/clientes?identificacion=1721734356",
+			"descriptionFormat": "html",
+			"time": 1655466828909,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
