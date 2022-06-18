@@ -4,12 +4,13 @@ import com.example.restfull.entity.Cliente;
 import com.example.restfull.repository.ClienteRepository;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@Service
+@Component
 @Log4j2
 public class ClienteServiceImpl implements IClienteService{
 
