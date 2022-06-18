@@ -24,10 +24,10 @@ public class Persona {
     @Column(name ="nombre", nullable = false)
     private String nombre;
 
-    @Column(name ="genero", nullable = false)
+    @Column(name ="genero")
     private String genero;
 
-    @Column(name ="edad", nullable = false)
+    @Column(name ="edad")
     private int edad;
 
     @Column(name ="identificacion", nullable = false, length = 10)

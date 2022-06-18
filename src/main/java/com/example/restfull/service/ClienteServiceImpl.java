@@ -32,6 +32,19 @@ public class ClienteServiceImpl implements IClienteService{
     }
 
     @Override
+    public boolean saveAll(List<Cliente> clientes) {
+        log.info("Ingreso metodo save cliente");
+        try {
+            clienteRepository.saveAll(clientes);
+            log.info("Cliente Creado");
+            return true;
+        }catch (Exception e){
+            log.error(e);
+            return false;
+        }
+    }
+
+    @Override
     public List<Cliente> findAll() {
         return clienteRepository.findAll();
     }

@@ -23,19 +23,15 @@ public class Movimiento {
     private int idMovimiento;
 
     @Column(name = "fecha", nullable = false)
-    @NotNull
     private Date fecha;
 
     @Column(name = "tipo", nullable = false)
-    @NotNull
     private String tipo;
 
     @Column(name = "valor", nullable = false)
-    @NotNull
     private String valor;
 
     @Column(name = "saldo", nullable = false)
-    @NotNull
     private Double saldo;
 
     @ManyToOne

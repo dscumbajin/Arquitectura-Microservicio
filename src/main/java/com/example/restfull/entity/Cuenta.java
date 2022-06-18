@@ -25,19 +25,15 @@ public class Cuenta {
     private int idCuenta;
 
     @Column(name = "numero", nullable = false)
-    @NotNull
     private String numero;
 
     @Column(name = "tipo", nullable = false)
-    @NotNull
     private String tipo;
 
     @Column(name = "saldoInicial", nullable = false)
-    @NotNull
     private double saldoInicial;
 
     @Column(name = "estado", nullable = false)
-    @NotNull
     private boolean estado;
 
     @ManyToOne

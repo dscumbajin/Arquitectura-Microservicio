@@ -21,11 +21,9 @@ import java.util.Set;
 public class Cliente extends Persona {
 
     @Column(name ="contrasena", nullable = false)
-    @NotNull
     private String contrasena;
 
     @Column(name ="estado", nullable = false)
-    @NotNull
     private boolean estado;
 
     @OneToMany(mappedBy = "cliente")
